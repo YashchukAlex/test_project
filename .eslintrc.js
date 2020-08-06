@@ -10,6 +10,12 @@ module.exports = {
       },
     ],
     'comma-dangle': ['error', 'always-multiline'],
+    'react/jsx-filename-extension': ['error', { extensions: ['.js', '.jsx'] }],
+  },
+  parserOptions: {
+    ecmaFeatures: {
+      jsx: true,
+    },
   },
   plugins: ['prettier'],
 };
