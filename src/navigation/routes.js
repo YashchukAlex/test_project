@@ -3,28 +3,33 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 import { ActivityIndicator } from '@components';
 
-import NavigationServices from './navigationServices';
-
 import Home from '../screens/Home';
 import NoteDetails from '../screens/NoteDetails';
 
 const HomeStack = createStackNavigator();
 
+const headerStyle = {
+  height: 60,
+};
+
 const HomeStackScreen = () => (
   <>
     <HomeStack.Navigator
-      screenOptions={({ route }) => ({
-        title: route.params && route.params.title,
-        headerLeft: route.params && route.params.headerLeft,
-        headerRight: route.params && route.params.headerRight,
-      })}
+      screenOptions={({ route }) => {
+        const { params } = route;
+        return {
+          headerLeft: params && params.headerLeft,
+          headerRight: params && params.headerRight,
+          headerTitle: params && params.headerTitle,
+        };
+      }}
     >
-      <HomeStack.Screen name="Home" component={Home} options={{ headerStyle: { backgroundColor: '#02C5B4' } }} />
       <HomeStack.Screen
-        name="NoteDetails"
-        component={NoteDetails}
-        options={{ headerStyle: { backgroundColor: '#EFF7F6' } }}
+        name="Home"
+        component={Home}
+        options={{ headerStyle: { ...headerStyle, backgroundColor: '#02C5B4' } }}
       />
+      <HomeStack.Screen name="NoteDetails" component={NoteDetails} />
     </HomeStack.Navigator>
   </>
 );
@@ -40,11 +45,7 @@ export default () => {
 
   return (
     <>
-      <NavigationContainer
-        ref={(navigatorRef) => {
-          NavigationServices.setTopLevelNavigator(navigatorRef);
-        }}
-      >
+      <NavigationContainer>
         <HomeStackScreen />
         <ActivityIndicator isLoading={isLoading} />
       </NavigationContainer>
