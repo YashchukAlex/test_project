@@ -61,28 +61,4 @@ export const articles = [
     body:
       'your first days back to work can be filled with a thousand emotions. here’s some more of an excert from this article. ',
   },
-  {
-    image: photo1,
-    title: 'how to make it through your first days back to work',
-    body:
-      'your first days back to work can be filled with a thousand emotions. here’s some more of an excert from this article. ',
-  },
-  {
-    image: photo1,
-    title: 'how to make it through your first days back to work',
-    body:
-      'your first days back to work can be filled with a thousand emotions. here’s some more of an excert from this article. ',
-  },
-  {
-    image: photo1,
-    title: 'how to make it through your first days back to work',
-    body:
-      'your first days back to work can be filled with a thousand emotions. here’s some more of an excert from this article. ',
-  },
-  {
-    image: photo1,
-    title: 'how to make it through your first days back to work',
-    body:
-      'your first days back to work can be filled with a thousand emotions. here’s some more of an excert from this article. ',
-  },
 ];

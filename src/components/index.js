@@ -5,3 +5,4 @@ export { default as TopMenu } from './TopMenu';
 export { default as Carusel } from './Carusel';
 export { default as Letter } from './Letter';
 export { default as SupportButton } from './SupportButton';
+export { default as Article } from './Article';

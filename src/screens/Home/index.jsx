@@ -1,6 +1,6 @@
 import React from 'react';
 import { View, ScrollView } from 'react-native';
-import { ReusableComponents, generateHeader, TopMenu, Carusel, SupportButton } from '@components';
+import { ReusableComponents, generateHeader, TopMenu, Carusel, SupportButton, Article } from '@components';
 import { useFocusEffect, useNavigation } from '@react-navigation/native';
 import { images } from '@assets';
 
@@ -8,7 +8,7 @@ const { burgerMenu, heartBoobLogo, avatar } = images;
 const { IconSVG, TouchableIconSVG, Icon } = ReusableComponents;
 
 import styles from './styles';
-import { letters } from './fakeData';
+import { letters, articles } from './fakeData';
 
 export default (props) => {
   const navigation = useNavigation();
@@ -25,6 +25,7 @@ export default (props) => {
       <TopMenu />
       <Carusel data={letters} />
       <SupportButton />
+      <Article item={articles[0]} />
     </ScrollView>
   );
 };
