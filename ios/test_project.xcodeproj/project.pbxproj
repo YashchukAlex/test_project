@@ -20,6 +20,12 @@
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		847CA6CFB834246D0AE7650C /* libPods-test_project-test_projectTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 33F2890EFACB7424BDB6B9E9 /* libPods-test_project-test_projectTests.a */; };
 		F021536839A06863350B521C /* libPods-test_project.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00EC2B5018B250D6F31228A8 /* libPods-test_project.a */; };
+		9DAD642A27484045B706BF98 /* Avenir-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9A7825583E564D6D9FDFAD15 /* Avenir-Light.ttf */; };
+		F0C0EA5B36DC4F809F01A05F /* Geomanist-Book.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 439DC06EB667490E9B478C19 /* Geomanist-Book.ttf */; };
+		2867AD31699848DBA29829B5 /* Geomanist-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0FAF684B8CA4450D827D5EE6 /* Geomanist-Light.ttf */; };
+		22D210AB57804504AE904D2E /* Geomanist-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B52C0D90BD3348EDB3AB3075 /* Geomanist-Regular.ttf */; };
+		A631B3002034426F93803684 /* Geomanist-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CFE46A8BDC7B4265ADE51509 /* Geomanist-Bold.ttf */; };
+		211FE81D625447C6B2218D5F /* Geomanist-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DF90AE781BD34A4EA02CAD40 /* Geomanist-Medium.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +73,12 @@
 		ED393500309D62AC45C1B103 /* Pods-test_project-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-test_project-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-test_project-tvOSTests/Pods-test_project-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		F556D9797A9C6EABAC35EC03 /* Pods-test_project-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-test_project-tvOS.release.xcconfig"; path = "Target Support Files/Pods-test_project-tvOS/Pods-test_project-tvOS.release.xcconfig"; sourceTree = "<group>"; };
 		FC260F9259DBFCF818F1D779 /* libPods-test_project-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-test_project-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A7825583E564D6D9FDFAD15 /* Avenir-Light.ttf */ = {isa = PBXFileReference; name = "Avenir-Light.ttf"; path = "../assets/fonts/Avenir-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		439DC06EB667490E9B478C19 /* Geomanist-Book.ttf */ = {isa = PBXFileReference; name = "Geomanist-Book.ttf"; path = "../assets/fonts/Geomanist-Book.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		0FAF684B8CA4450D827D5EE6 /* Geomanist-Light.ttf */ = {isa = PBXFileReference; name = "Geomanist-Light.ttf"; path = "../assets/fonts/Geomanist-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B52C0D90BD3348EDB3AB3075 /* Geomanist-Regular.ttf */ = {isa = PBXFileReference; name = "Geomanist-Regular.ttf"; path = "../assets/fonts/Geomanist-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		CFE46A8BDC7B4265ADE51509 /* Geomanist-Bold.ttf */ = {isa = PBXFileReference; name = "Geomanist-Bold.ttf"; path = "../assets/fonts/Geomanist-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		DF90AE781BD34A4EA02CAD40 /* Geomanist-Medium.ttf */ = {isa = PBXFileReference; name = "Geomanist-Medium.ttf"; path = "../assets/fonts/Geomanist-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -181,6 +193,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				7D72CDADA977362D7857A825 /* Pods */,
+				C47F6C24F4D949C39A700EE2 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -197,6 +210,20 @@
 			);
 			name = Products;
 			sourceTree = "<group>";
+		};
+		C47F6C24F4D949C39A700EE2 /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				9A7825583E564D6D9FDFAD15 /* Avenir-Light.ttf */,
+				439DC06EB667490E9B478C19 /* Geomanist-Book.ttf */,
+				0FAF684B8CA4450D827D5EE6 /* Geomanist-Light.ttf */,
+				B52C0D90BD3348EDB3AB3075 /* Geomanist-Regular.ttf */,
+				CFE46A8BDC7B4265ADE51509 /* Geomanist-Bold.ttf */,
+				DF90AE781BD34A4EA02CAD40 /* Geomanist-Medium.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
 		};
 /* End PBXGroup section */
 
@@ -342,6 +369,12 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				9DAD642A27484045B706BF98 /* Avenir-Light.ttf in Resources */,
+				F0C0EA5B36DC4F809F01A05F /* Geomanist-Book.ttf in Resources */,
+				2867AD31699848DBA29829B5 /* Geomanist-Light.ttf in Resources */,
+				22D210AB57804504AE904D2E /* Geomanist-Regular.ttf in Resources */,
+				A631B3002034426F93803684 /* Geomanist-Bold.ttf in Resources */,
+				211FE81D625447C6B2218D5F /* Geomanist-Medium.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

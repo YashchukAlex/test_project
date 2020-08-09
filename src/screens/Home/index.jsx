@@ -1,6 +1,6 @@
 import React from 'react';
 import { View } from 'react-native';
-import { ReusableComponents, generateHeader, TopMenu } from '@components';
+import { ReusableComponents, generateHeader, TopMenu, Carusel } from '@components';
 import { useFocusEffect, useNavigation } from '@react-navigation/native';
 import { images } from '@assets';
 
@@ -8,6 +8,7 @@ const { burgerMenu, heartBoobLogo, avatar } = images;
 const { IconSVG, TouchableIconSVG, Icon } = ReusableComponents;
 
 import styles from './styles';
+import { letters } from './fakeData';
 
 export default (props) => {
   const navigation = useNavigation();
@@ -22,6 +23,7 @@ export default (props) => {
   return (
     <View style={styles.container}>
       <TopMenu />
+      <Carusel mod={'letters'} data={letters} />
     </View>
   );
 };

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Children } from 'react';
 import { Image, TouchableOpacity } from 'react-native';
 import { SvgXml } from 'react-native-svg';
 
@@ -12,10 +12,23 @@ const TouchableIcon = (props) => {
     </TouchableOpacity>
   );
 };
+
 const TouchableIconSVG = (props) => {
   return (
     <TouchableOpacity hitSlop={{ top: props.hitSlop, bottom: props.hitSlop, left: props.hitSlop, right: props.hitSlop }}>
       <IconSVG {...props} />
+    </TouchableOpacity>
+  );
+};
+
+const TouchableOpacityHOC = ({ children, hitSlop, style, onPress }) => {
+  return (
+    <TouchableOpacity
+      hitSlop={{ top: hitSlop, bottom: hitSlop, left: hitSlop, right: hitSlop }}
+      style={style}
+      onPress={onPress}
+    >
+      {children}
     </TouchableOpacity>
   );
 };
@@ -25,4 +38,5 @@ export default {
   TouchableIconSVG,
   Icon,
   TouchableIcon,
+  TouchableOpacityHOC,
 };
