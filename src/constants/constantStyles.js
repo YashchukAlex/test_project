@@ -7,6 +7,5 @@ export default StyleSheet.create({
     shadowOffset: { width: 0, height: 2 },
     shadowRadius: 5,
     elevation: 5,
-    backgroundColor: 'white',
   },
 });

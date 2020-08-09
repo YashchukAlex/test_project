@@ -1,5 +1,5 @@
 import { StyleSheet } from 'react-native';
-import { constants } from '@constants';
+import { constants, constantStyles } from '@constants';
 
 export default StyleSheet.create({
   container: {
@@ -8,5 +8,6 @@ export default StyleSheet.create({
     justifyContent: 'space-around',
     alignItems: 'center',
     flexDirection: 'row',
+    ...constantStyles.defaultShadow,
   },
 });

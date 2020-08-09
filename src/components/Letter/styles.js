@@ -2,7 +2,7 @@ import { StyleSheet } from 'react-native';
 import { constants, constantStyles } from '@constants';
 
 const width = constants.dimensionsWindow.width * 0.95;
-const height = 240;
+const height = 230;
 
 export default StyleSheet.create({
   container: {

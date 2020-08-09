@@ -7,20 +7,16 @@ import { constants } from '@constants';
 import styles from './styles';
 
 export default (props) => {
-  const { data = [], mod } = props;
+  const { data = [] } = props;
   const _renderItem = ({ item, index }) => {
-    switch (mod) {
-      case 'letters': {
-        return <Letter item={item} />;
-      }
-    }
+    return <Letter item={item} />;
   };
   return (
     <View style={styles.container}>
       <Carousel
         data={data}
         renderItem={_renderItem}
-        sliderWidth={constants.dimensionsWindow.width}
+        sliderWidth={constants.dimensionsWindow.height}
         itemWidth={constants.dimensionsWindow.width / 1.05}
         horizontal
       />

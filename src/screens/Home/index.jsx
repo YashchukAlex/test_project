@@ -1,6 +1,6 @@
 import React from 'react';
-import { View } from 'react-native';
-import { ReusableComponents, generateHeader, TopMenu, Carusel } from '@components';
+import { View, ScrollView } from 'react-native';
+import { ReusableComponents, generateHeader, TopMenu, Carusel, SupportButton } from '@components';
 import { useFocusEffect, useNavigation } from '@react-navigation/native';
 import { images } from '@assets';
 
@@ -21,9 +21,10 @@ export default (props) => {
     });
   });
   return (
-    <View style={styles.container}>
+    <ScrollView style={styles.container}>
       <TopMenu />
-      <Carusel mod={'letters'} data={letters} />
-    </View>
+      <Carusel data={letters} />
+      <SupportButton />
+    </ScrollView>
   );
 };
