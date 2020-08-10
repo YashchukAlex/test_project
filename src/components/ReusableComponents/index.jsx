@@ -15,7 +15,10 @@ const TouchableIcon = (props) => {
 
 const TouchableIconSVG = (props) => {
   return (
-    <TouchableOpacity hitSlop={{ top: props.hitSlop, bottom: props.hitSlop, left: props.hitSlop, right: props.hitSlop }}>
+    <TouchableOpacity
+      hitSlop={{ top: props.hitSlop, bottom: props.hitSlop, left: props.hitSlop, right: props.hitSlop }}
+      onPress={props.onPress}
+    >
       <IconSVG {...props} />
     </TouchableOpacity>
   );

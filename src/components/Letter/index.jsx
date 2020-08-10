@@ -1,5 +1,6 @@
 import React from 'react';
 import { View, Text, Alert } from 'react-native';
+import { useNavigation } from '@react-navigation/native';
 import { SvgXml } from 'react-native-svg';
 
 import { images } from '@assets';
@@ -11,6 +12,7 @@ const { IconSVG, TouchableOpacityHOC } = ReusableComponents;
 const { line, heartIcon } = images;
 
 export default ({ item }) => {
+  const navigation = useNavigation();
   return (
     <View style={styles.container}>
       <View style={styles.contentContainer}>
@@ -35,7 +37,12 @@ export default ({ item }) => {
           <Text style={styles.topicText}>{item.body.topic}</Text>
         </View>
         <View style={styles.bottomBlock}>
-          <TouchableOpacityHOC hitSlop={10} onPress={() => {}}>
+          <TouchableOpacityHOC
+            hitSlop={10}
+            onPress={() => {
+              navigation.navigate('LetterDetails', { title: `to ${item.body.name}`.toLowerCase() });
+            }}
+          >
             <Text style={styles.noteText}>Tap to open note</Text>
           </TouchableOpacityHOC>
         </View>

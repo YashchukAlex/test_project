@@ -1,7 +1,7 @@
 import React from 'react';
 import { View, ScrollView } from 'react-native';
 import { ReusableComponents, generateHeader, TopMenu, Carusel, SupportButton, Article, Footer } from '@components';
-import { useFocusEffect, useNavigation } from '@react-navigation/native';
+import { useFocusEffect } from '@react-navigation/native';
 import { images } from '@assets';
 
 const { burgerMenu, heartBoobLogo, avatar } = images;
@@ -10,8 +10,7 @@ const { IconSVG, TouchableIconSVG, Icon } = ReusableComponents;
 import styles from './styles';
 import { letters, articles } from './fakeData';
 
-export default (props) => {
-  const navigation = useNavigation();
+export default ({ navigation }) => {
   useFocusEffect(() => {
     generateHeader({
       headerLeft: <TouchableIconSVG source={burgerMenu} size={25} hitSlop={5} />,

@@ -2,7 +2,7 @@ import React from 'react';
 import { View, StyleSheet } from 'react-native';
 
 export default (props) => {
-  const { headerLeft, headerRight, headerTitle, headerColor, navigation } = props;
+  const { headerLeft, headerRight, headerTitle, headerColor, navigation, title } = props;
   let header = {
     headerLeft: () => {
       return <View style={styles.container}>{headerLeft}</View>;
@@ -14,6 +14,7 @@ export default (props) => {
       return <View style={[styles.container, { alignSelf: 'center' }]}>{headerTitle}</View>;
     },
     headerColor,
+    title,
   };
   navigation.setOptions(header);
 };

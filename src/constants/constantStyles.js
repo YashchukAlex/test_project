@@ -8,4 +8,9 @@ export default StyleSheet.create({
     shadowRadius: 5,
     elevation: 5,
   },
+  headerTitle: {
+    fontFamily: 'Geomanist-Medium',
+    fontSize: 16,
+    color: '#E86B60',
+  },
 });
