@@ -13,7 +13,16 @@ import { letters, articles } from './fakeData';
 export default ({ navigation }) => {
   useFocusEffect(() => {
     generateHeader({
-      headerLeft: <TouchableIconSVG source={burgerMenu} size={25} hitSlop={5} />,
+      headerLeft: (
+        <TouchableIconSVG
+          source={burgerMenu}
+          size={25}
+          hitSlop={5}
+          onPress={() => {
+            navigation.openDrawer();
+          }}
+        />
+      ),
       headerTitle: <IconSVG source={heartBoobLogo} size={35} />,
       headerRight: <Icon source={avatar} size={35} hitSlop={5} />,
       navigation: navigation,

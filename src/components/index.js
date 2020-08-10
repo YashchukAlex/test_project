@@ -7,3 +7,4 @@ export { default as Letter } from './Letter';
 export { default as SupportButton } from './SupportButton';
 export { default as Article } from './Article';
 export { default as Footer } from './Footer';
+export { default as Drawer } from './Drawer';

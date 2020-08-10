@@ -1,9 +1,10 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { View, ScrollView, Text, Image } from 'react-native';
 import { ReusableComponents, generateHeader } from '@components';
 import { useFocusEffect } from '@react-navigation/native';
 import { images } from '@assets';
 import { constantStyles } from '@constants';
+import { changeSwipeEnabled } from '../../navigation/routes';
 
 const { x_icon } = images;
 const { TouchableIconSVG } = ReusableComponents;
