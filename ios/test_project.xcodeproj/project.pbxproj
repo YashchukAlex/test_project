@@ -8,9 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* test_projectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* test_projectTests.m */; };
+		0C0B854C24E2987E00177817 /* assets in Resources */ = {isa = PBXBuildFile; fileRef = 0C0B854B24E2987E00177817 /* assets */; };
+		0C16881224E1A0BB00B9DB29 /* main.jsbundle in Resources */ = {isa = PBXBuildFile; fileRef = 008F07F21AC5B25A0029DE68 /* main.jsbundle */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		211FE81D625447C6B2218D5F /* Geomanist-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DF90AE781BD34A4EA02CAD40 /* Geomanist-Medium.ttf */; };
+		22D210AB57804504AE904D2E /* Geomanist-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B52C0D90BD3348EDB3AB3075 /* Geomanist-Regular.ttf */; };
+		2867AD31699848DBA29829B5 /* Geomanist-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0FAF684B8CA4450D827D5EE6 /* Geomanist-Light.ttf */; };
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
@@ -19,13 +24,10 @@
 		6CB6CCE367D2FF69E153DF8A /* libPods-test_project-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AFCD94C646D17E1EABD431DC /* libPods-test_project-tvOS.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		847CA6CFB834246D0AE7650C /* libPods-test_project-test_projectTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 33F2890EFACB7424BDB6B9E9 /* libPods-test_project-test_projectTests.a */; };
-		F021536839A06863350B521C /* libPods-test_project.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00EC2B5018B250D6F31228A8 /* libPods-test_project.a */; };
 		9DAD642A27484045B706BF98 /* Avenir-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9A7825583E564D6D9FDFAD15 /* Avenir-Light.ttf */; };
-		F0C0EA5B36DC4F809F01A05F /* Geomanist-Book.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 439DC06EB667490E9B478C19 /* Geomanist-Book.ttf */; };
-		2867AD31699848DBA29829B5 /* Geomanist-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0FAF684B8CA4450D827D5EE6 /* Geomanist-Light.ttf */; };
-		22D210AB57804504AE904D2E /* Geomanist-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B52C0D90BD3348EDB3AB3075 /* Geomanist-Regular.ttf */; };
 		A631B3002034426F93803684 /* Geomanist-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CFE46A8BDC7B4265ADE51509 /* Geomanist-Bold.ttf */; };
-		211FE81D625447C6B2218D5F /* Geomanist-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DF90AE781BD34A4EA02CAD40 /* Geomanist-Medium.ttf */; };
+		F021536839A06863350B521C /* libPods-test_project.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00EC2B5018B250D6F31228A8 /* libPods-test_project.a */; };
+		F0C0EA5B36DC4F809F01A05F /* Geomanist-Book.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 439DC06EB667490E9B478C19 /* Geomanist-Book.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,12 +48,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
+		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = main.jsbundle; path = test_project/main.jsbundle; sourceTree = "<group>"; };
 		00E356EE1AD99517003FC87E /* test_projectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = test_projectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* test_projectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = test_projectTests.m; sourceTree = "<group>"; };
 		00EC2B5018B250D6F31228A8 /* libPods-test_project.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-test_project.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		067F22759799F2B751D577B8 /* Pods-test_project-test_projectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-test_project-test_projectTests.debug.xcconfig"; path = "Target Support Files/Pods-test_project-test_projectTests/Pods-test_project-test_projectTests.debug.xcconfig"; sourceTree = "<group>"; };
+		0C0B854B24E2987E00177817 /* assets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = assets; sourceTree = "<group>"; };
+		0C16881324E1A72000B9DB29 /* test_project.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = test_project.entitlements; path = test_project/test_project.entitlements; sourceTree = "<group>"; };
+		0FAF684B8CA4450D827D5EE6 /* Geomanist-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Geomanist-Light.ttf"; path = "../assets/fonts/Geomanist-Light.ttf"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* test_project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test_project.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = test_project/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = test_project/AppDelegate.m; sourceTree = "<group>"; };
@@ -63,22 +68,21 @@
 		2D02E4901E0B4A5D006451C7 /* test_project-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "test_project-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		30F5415D261415CD884C258E /* Pods-test_project.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-test_project.debug.xcconfig"; path = "Target Support Files/Pods-test_project/Pods-test_project.debug.xcconfig"; sourceTree = "<group>"; };
 		33F2890EFACB7424BDB6B9E9 /* libPods-test_project-test_projectTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-test_project-test_projectTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		439DC06EB667490E9B478C19 /* Geomanist-Book.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Geomanist-Book.ttf"; path = "../assets/fonts/Geomanist-Book.ttf"; sourceTree = "<group>"; };
 		45F93792DC432BD4380F1CB2 /* Pods-test_project-test_projectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-test_project-test_projectTests.release.xcconfig"; path = "Target Support Files/Pods-test_project-test_projectTests/Pods-test_project-test_projectTests.release.xcconfig"; sourceTree = "<group>"; };
 		55CFFC5282CB8FDB85D8A06F /* Pods-test_project-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-test_project-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-test_project-tvOS/Pods-test_project-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = test_project/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9A7825583E564D6D9FDFAD15 /* Avenir-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Avenir-Light.ttf"; path = "../assets/fonts/Avenir-Light.ttf"; sourceTree = "<group>"; };
 		9EB2A7A9C1C4D13DC22C6F06 /* Pods-test_project-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-test_project-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-test_project-tvOSTests/Pods-test_project-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		AFCD94C646D17E1EABD431DC /* libPods-test_project-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-test_project-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B52C0D90BD3348EDB3AB3075 /* Geomanist-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Geomanist-Regular.ttf"; path = "../assets/fonts/Geomanist-Regular.ttf"; sourceTree = "<group>"; };
+		CFE46A8BDC7B4265ADE51509 /* Geomanist-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Geomanist-Bold.ttf"; path = "../assets/fonts/Geomanist-Bold.ttf"; sourceTree = "<group>"; };
+		DF90AE781BD34A4EA02CAD40 /* Geomanist-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Geomanist-Medium.ttf"; path = "../assets/fonts/Geomanist-Medium.ttf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
 		ED393500309D62AC45C1B103 /* Pods-test_project-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-test_project-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-test_project-tvOSTests/Pods-test_project-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		F556D9797A9C6EABAC35EC03 /* Pods-test_project-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-test_project-tvOS.release.xcconfig"; path = "Target Support Files/Pods-test_project-tvOS/Pods-test_project-tvOS.release.xcconfig"; sourceTree = "<group>"; };
 		FC260F9259DBFCF818F1D779 /* libPods-test_project-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-test_project-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9A7825583E564D6D9FDFAD15 /* Avenir-Light.ttf */ = {isa = PBXFileReference; name = "Avenir-Light.ttf"; path = "../assets/fonts/Avenir-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		439DC06EB667490E9B478C19 /* Geomanist-Book.ttf */ = {isa = PBXFileReference; name = "Geomanist-Book.ttf"; path = "../assets/fonts/Geomanist-Book.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		0FAF684B8CA4450D827D5EE6 /* Geomanist-Light.ttf */ = {isa = PBXFileReference; name = "Geomanist-Light.ttf"; path = "../assets/fonts/Geomanist-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		B52C0D90BD3348EDB3AB3075 /* Geomanist-Regular.ttf */ = {isa = PBXFileReference; name = "Geomanist-Regular.ttf"; path = "../assets/fonts/Geomanist-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		CFE46A8BDC7B4265ADE51509 /* Geomanist-Bold.ttf */ = {isa = PBXFileReference; name = "Geomanist-Bold.ttf"; path = "../assets/fonts/Geomanist-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		DF90AE781BD34A4EA02CAD40 /* Geomanist-Medium.ttf */ = {isa = PBXFileReference; name = "Geomanist-Medium.ttf"; path = "../assets/fonts/Geomanist-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +141,7 @@
 		13B07FAE1A68108700A75B9A /* test_project */ = {
 			isa = PBXGroup;
 			children = (
+				0C16881324E1A72000B9DB29 /* test_project.entitlements */,
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
@@ -173,7 +178,6 @@
 				9EB2A7A9C1C4D13DC22C6F06 /* Pods-test_project-tvOSTests.debug.xcconfig */,
 				ED393500309D62AC45C1B103 /* Pods-test_project-tvOSTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -187,6 +191,7 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				0C0B854B24E2987E00177817 /* assets */,
 				13B07FAE1A68108700A75B9A /* test_project */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* test_projectTests */,
@@ -212,7 +217,7 @@
 			sourceTree = "<group>";
 		};
 		C47F6C24F4D949C39A700EE2 /* Resources */ = {
-			isa = "PBXGroup";
+			isa = PBXGroup;
 			children = (
 				9A7825583E564D6D9FDFAD15 /* Avenir-Light.ttf */,
 				439DC06EB667490E9B478C19 /* Geomanist-Book.ttf */,
@@ -223,7 +228,6 @@
 			);
 			name = Resources;
 			sourceTree = "<group>";
-			path = "";
 		};
 /* End PBXGroup section */
 
@@ -321,6 +325,7 @@
 						TestTargetID = 13B07F861A680F5B00A75B9A;
 					};
 					13B07F861A680F5B00A75B9A = {
+						DevelopmentTeam = A7AJZL9FUA;
 						LastSwiftMigration = 1120;
 					};
 					2D02E47A1E0B4A5D006451C7 = {
@@ -367,9 +372,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C0B854C24E2987E00177817 /* assets in Resources */,
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				9DAD642A27484045B706BF98 /* Avenir-Light.ttf in Resources */,
+				0C16881224E1A0BB00B9DB29 /* main.jsbundle in Resources */,
 				F0C0EA5B36DC4F809F01A05F /* Geomanist-Book.ttf in Resources */,
 				2867AD31699848DBA29829B5 /* Geomanist-Light.ttf in Resources */,
 				22D210AB57804504AE904D2E /* Geomanist-Regular.ttf in Resources */,
@@ -688,16 +695,19 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CURRENT_PROJECT_VERSION = 1;
+				CODE_SIGN_ENTITLEMENTS = test_project/test_project.entitlements;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = A7AJZL9FUA;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = test_project/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.magisoftSolutions.TestAppHeartBoob;
 				PRODUCT_NAME = test_project;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -711,15 +721,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CURRENT_PROJECT_VERSION = 1;
+				CODE_SIGN_ENTITLEMENTS = test_project/test_project.entitlements;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = A7AJZL9FUA;
 				INFOPLIST_FILE = test_project/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.magisoftSolutions.TestAppHeartBoob;
 				PRODUCT_NAME = test_project;
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
